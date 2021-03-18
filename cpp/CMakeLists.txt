@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(shared_ptr_learn shared_ptr_learn.cpp)
 add_executable(translation_units_and_linkage translation_units_and_linkage.cpp translation_units_and_linkage_test.cpp)
+add_executable(arguments_definitions arguments_definitions.cpp)
+add_executable(atexit_function atexit_function.cpp)
