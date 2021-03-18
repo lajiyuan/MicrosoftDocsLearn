@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.17)
+project(docs_microsoft)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(shared_ptr_learn shared_ptr_learn.cpp)
+add_executable(translation_units_and_linkage translation_units_and_linkage.cpp translation_units_and_linkage_test.cpp)
